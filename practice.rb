@@ -1,5 +1,9 @@
-multiples_of_two = []
-  multiples_of_two << num * 2
-100.times do |multiples_of_two|
-  puts multiples_of_two 
+100.times do |num|
+  puts num 
 end 
+
+multiples_of_two = []
+100.times do |num|
+  multiples_of_two << num * 2 
+end
+
